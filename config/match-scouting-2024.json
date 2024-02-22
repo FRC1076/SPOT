@@ -133,6 +133,23 @@
                         "type": "action",
                         "executables": []
                 },
+
+                {
+                    "id": "goodDefense",
+                    "displayText": "Good Defense",
+                    "gridArea": ["4", "2", "5", "4"],
+                    "class": "blue",
+                    "type": "action",
+                    "executables": []
+                },
+                {
+                    "id": "badDefense",
+                    "displayText": "Bad or Avg Defense",
+                    "gridArea": ["4", "7", "5", "9"],
+                    "class": "blue",
+                    "type": "action",
+                    "executables": []
+                },
                 {
                     "id": "sourcePickup",
                     "displayText": "Source",
