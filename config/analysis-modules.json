@@ -86,6 +86,23 @@
                     "decimals": 1,
                     "sort": -1
                 },
+                              {
+                    "name": "Average Avg or Bad Defense",
+                    "path": "averages.badDefense",
+                "multiplier": 100,
+                    "decimals": 1,
+                    "sort": 1,
+                    "unit": "%"
+                },
+                {
+                    "name": "Average Good Defense",
+                    "path": "averages.goodDefense",
+                "multiplier": 100,
+                    "decimals": 1,
+                    "sort": 1,
+                    "unit": "%"
+                },
+
 
                 {
                     "name": "Average Onstage Time",
