@@ -205,7 +205,7 @@
           "gridArea": ["4", "2", "5", "4"],
           "class": "navy",
           "type": "action",
-          "executables": [{"type": "hide", args: []}]
+          "executables": [{"type": "hide", "args": []}]
         },
         {
           "id": "coopertition",
@@ -213,7 +213,7 @@
           "gridArea": ["4", "7", "5", "9"],
           "class": "navy",
           "type": "action",
-          "executables": [{"type": "hide", args: []}]
+          "executables": [{"type": "hide", "args": []}]
         }
       ],
       [
@@ -313,7 +313,7 @@
           "gridArea": ["4", "2", "5", "4"],
           "class": "navy",
           "type": "action",
-          "executables": [{"type": "hide", args: []}]
+          "executables": [{"type": "hide", "args": []}]
         },
         {
           "id": "coopertition",
@@ -321,7 +321,7 @@
           "gridArea": ["4", "7", "5", "9"],
           "class": "navy",
           "type": "action",
-          "executables": [{"type": "hide", args: []}]
+          "executables": [{"type": "hide", "args": []}]
         }
       ],
       [
