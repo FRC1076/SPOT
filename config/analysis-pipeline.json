@@ -24,7 +24,8 @@
                 "counts.scoreAmp",
                 "counts.scoreSpeaker",
                 "counts.scoreAmpedSpeaker",
-                "counts.miss"
+                "counts.miss",
+                "counts.goodDefense"
             ]
         }
     },
