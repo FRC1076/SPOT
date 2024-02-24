@@ -87,8 +87,8 @@
                     "sort": -1
                 },
                               {
-                    "name": "Average Avg or Bad Defense",
-                    "path": "averages.badDefense",
+                    "name": "Average Coopertition",
+                    "path": "averages.coopertition",
                 "multiplier": 100,
                     "decimals": 1,
                     "sort": 1,

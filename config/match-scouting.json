@@ -208,12 +208,12 @@
           "executables": [{"type": "hide", args: []}]
         },
         {
-          "id": "badDefense",
-          "displayText": "Bad or Avg Defense",
+          "id": "coopertition",
+          "displayText": "Coopertition",
           "gridArea": ["4", "7", "5", "9"],
           "class": "navy",
           "type": "action",
-          "executables": []
+          "executables": [{"type": "hide", args: []}]
         }
       ],
       [
@@ -316,12 +316,12 @@
           "executables": [{"type": "hide", args: []}]
         },
         {
-          "id": "badDefense",
-          "displayText": "Bad or Avg Defense",
+          "id": "coopertition",
+          "displayText": "Coopertition",
           "gridArea": ["4", "7", "5", "9"],
           "class": "navy",
           "type": "action",
-          "executables": []
+          "executables": [{"type": "hide", args: []}]
         }
       ],
       [
