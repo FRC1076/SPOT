@@ -277,6 +277,32 @@
 			"unit": "%"
 		}
 	},
+  	{
+		"view": "match",
+		"module": "ColumnDisplay",
+		"name": "Good Defense",
+		"position": "main",
+		"options": {
+			"path": "goodDefense",
+			"sort": 1,
+			"decimals": 1,
+			"multiplier": 100,
+			"unit": "%"
+		}
+	},
+   	{
+		"view": "match",
+		"module": "ColumnDisplay",
+		"name": "Coopertition",
+		"position": "main",
+		"options": {
+			"path": "averageScores.coopertition",
+			"sort": 1,
+			"decimals": 1,
+			"multiplier": 100,
+			"unit": "%"
+		}
+	},
     {
         "view": "match",
         "module": "Stats",
