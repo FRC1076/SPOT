@@ -194,7 +194,7 @@
         {
           "id": "miss",
           "displayText": "Miss",
-          "gridArea": ["4", "8", "5", "10"],
+          "gridArea": ["4", "4", "5", "7"],
           "class": "red",
           "type": "action",
           "executables": []
@@ -209,7 +209,7 @@
         },
         {
           "id": "coopertition",
-          "displayText": "Coopertition",
+          "displayText": "Coop",
           "gridArea": ["3", "7", "4", "9"],
           "class": "navy",
           "type": "action",
@@ -302,7 +302,7 @@
         {
           "id": "miss",
           "displayText": "Miss",
-          "gridArea": ["4", "8", "5", "10"],
+          "gridArea": ["4", "4", "5", "7"],
           "class": "red",
           "type": "action",
           "executables": []
@@ -310,15 +310,15 @@
                 {
           "id": "goodDefense",
           "displayText": "Good Defense",
-          "gridArea": ["", "2", "5", "4"],
+          "gridArea": ["3", "2", "4", "4"],
           "class": "navy",
           "type": "action",
           "executables": [{"type": "hide", "args": []}]
         },
         {
           "id": "coopertition",
-          "displayText": "Coopertition",
-          "gridArea": ["4", "7", "5", "9"],
+          "displayText": "Coop",
+          "gridArea": ["3", "7", "4", "9"],
           "class": "navy",
           "type": "action",
           "executables": [{"type": "hide", "args": []}]
@@ -376,7 +376,7 @@
         {
           "id": "spotlit",
           "displayText": "Spotlit",
-          "gridArea": ["6", "8", "7", "10"],
+          "gridArea": ["5", "8", "6", "10"],
           "class": "gray",
           "type": "action",
           "executables": []
@@ -384,7 +384,7 @@
         {
           "id": "trap",
           "displayText": "Trap",
-          "gridArea": ["6", "4", "7", "7"],
+          "gridArea": ["5", "4", "6", "7"],
           "class": "gray",
           "type": "action",
           "executables": []
@@ -392,7 +392,7 @@
         {
           "id": "unpark",
           "displayText": "Unpark",
-          "gridArea": ["6", "1", "7", "3"],
+          "gridArea": ["5", "1", "6", "3"],
           "class": "orange",
           "type": "action",
           "executables": [
@@ -412,7 +412,7 @@
         },
         {
           "id": "coopertition",
-          "displayText": "Coopertition",
+          "displayText": "Coop",
           "gridArea": ["4", "7", "5", "9"],
           "class": "navy",
           "type": "action",
