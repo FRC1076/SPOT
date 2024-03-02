@@ -86,7 +86,7 @@
         {
           "id": "scoreAmp",
           "displayText": "Score Amp",
-          "gridArea": ["5", "1", "6", "3"],
+          "gridArea": ["4", "1", "5", "3"],
           "class": "green",
           "type": "action",
           "executables": []
@@ -165,7 +165,7 @@
         {
           "id": "scoreAmp",
           "displayText": "Score Amp",
-          "gridArea": ["5", "1", "6", "3"],
+          "gridArea": ["4", "1", "5", "3"],
           "class": "green",
           "type": "action",
           "executables": []
@@ -173,7 +173,7 @@
         {
           "id": "amplify",
           "displayText": "Amplify",
-          "gridArea": ["5", "1", "5", "3"],
+          "gridArea": ["5", "1", "6", "3"],
           "class": "green",
           "type": "action",
           "executables": [
@@ -273,7 +273,7 @@
         {
           "id": "scoreAmp",
           "displayText": "Score Amp",
-          "gridArea": ["5", "1", "6", "3"],
+          "gridArea": ["4", "1", "5", "3"],
           "class": "green",
           "type": "action",
           "executables": []
@@ -281,7 +281,7 @@
         {
           "id": "endAmp",
           "displayText": "End Amp",
-          "gridArea": ["4", "1", "5", "3"],
+          "gridArea": ["4", "3", "5", "5"],
           "class": "green",
           "type": "action",
           "executables": [
@@ -351,7 +351,7 @@
         },
         {
           "id": "onstage",
-          "displayText": "Onstage/Climb",
+          "displayText": "Onstage / Climb",
           "gridArea": ["3", "4", "4", "7"],
           "class": "gray",
           "type": "action",
