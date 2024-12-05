@@ -108,14 +108,6 @@
           "executables": []
         },
         {
-          "id": "pushCrates",
-          "displayText": "Pushed Crates",
-          "gridArea": ["4", "4", "5", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
           "id": "scorePodium",
           "displayText": "Podium",
           "gridArea": ["5", "4", "6", "7"],
@@ -240,8 +232,8 @@
           "executables": []
         },
         {
-          "id": "scorePodium",
-          "displayText": "Podium",
+          "id": "pushCrates",
+          "displayText": "Pushed Crates",
           "gridArea": ["5", "4", "6", "7"],
           "class": "gray",
           "type": "action",
