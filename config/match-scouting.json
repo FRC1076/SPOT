@@ -98,7 +98,7 @@
           "id": "dropCrate",
           "displayText": "Drop Crate",
           "gridArea": ["5", "1", "6", "3"],
-          "class": "yellow",
+          "class": "red",
           "type": "action",
           "executables": []
         },
@@ -114,6 +114,14 @@
           "id": "shotBalls",
           "displayText": "Shot Balls",
           "gridArea": ["6", "4", "7", "7"],
+          "class": "gray",
+          "type": "action",
+          "executables": []
+        },
+        {
+          "id": "pushCrates",
+          "displayText": "Pushed Crates",
+          "gridArea": ["5", "4", "6", "7"],
           "class": "gray",
           "type": "action",
           "executables": []
