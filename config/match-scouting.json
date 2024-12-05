@@ -1,36 +1,22 @@
 {
   "timing": {
-<<<<<<< HEAD
     "totalTime": 150000,
     "timeTransitions": {
       "149990": {
-=======
-    "totalTime": 153000,
-    "timeTransitions": {
-      "152999": {
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         "layer": 1,
         "displayText": "Auto",
         "variables": {}
       },
-<<<<<<< HEAD
       "131000": {
-=======
-      "135000": {
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         "layer": 2,
         "displayText": "Teleop",
         "variables": {}
       }
     }
   },
-<<<<<<< HEAD
-  "variables": {},
-=======
   "variables": {
     "minOfQueueLength": 2
   },
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
   "layout": {
     "gridRows": 6,
     "gridColumns": 9,
@@ -48,8 +34,6 @@
               "args": [0, 1]
             }
           ]
-<<<<<<< HEAD
-=======
         },
 
         {
@@ -67,7 +51,6 @@
           "class": "gray",
           "type": "action",
           "executables": []
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         }
       ],
       [
@@ -106,12 +89,6 @@
         {
           "id": "groundPickup",
           "displayText": "Ground",
-<<<<<<< HEAD
-          "gridArea": ["2", "8", "3", "10"],
-          "class": "orange",
-          "type": "action",
-          "executables": []
-=======
           "gridArea": ["3", "8", "4", "10"],
           "class": "orange",
           "type": "none",
@@ -121,16 +98,11 @@
               "args": [1, 5]
             }
           ]
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         },
         {
           "id": "leave",
           "displayText": "Leave",
-<<<<<<< HEAD
-          "gridArea": ["2", "4", "3", "7"],
-=======
           "gridArea": ["6", "8", "7", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "gray",
           "type": "action",
           "executables": []
@@ -138,22 +110,12 @@
         {
           "id": "scoreAmp",
           "displayText": "Score Amp",
-<<<<<<< HEAD
-          "gridArea": ["4", "1", "5", "3"],
-=======
           "gridArea": ["6", "1", "7", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "green",
           "type": "action",
           "executables": []
         },
         {
-<<<<<<< HEAD
-          "id": "scoreSpeaker",
-          "displayText": "Speaker",
-          "gridArea": ["5", "8", "6", "10"],
-          "class": "green",
-=======
           "id": "scoreSubwoofer",
           "displayText": "Subwoofer",
           "gridArea": ["6", "4", "7", "7"],
@@ -190,18 +152,13 @@
           "displayText": "Drop",
           "gridArea": ["5", "8", "6", "9"],
           "class": "yellow",
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "type": "action",
           "executables": []
         },
         {
           "id": "miss",
           "displayText": "Miss",
-<<<<<<< HEAD
-          "gridArea": ["4", "4", "5", "7"],
-=======
           "gridArea": ["5", "9", "6", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "red",
           "type": "action",
           "executables": []
@@ -235,11 +192,7 @@
         {
           "id": "groundPickup",
           "displayText": "Ground",
-<<<<<<< HEAD
-          "gridArea": ["2", "8", "3", "10"],
-=======
           "gridArea": ["3", "8", "4", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "orange",
           "type": "action",
           "executables": []
@@ -247,11 +200,7 @@
         {
           "id": "sourcePickup",
           "displayText": "Source",
-<<<<<<< HEAD
-          "gridArea": ["2", "1", "3", "3"],
-=======
           "gridArea": ["3", "1", "4", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "orange",
           "type": "action",
           "executables": []
@@ -259,11 +208,7 @@
         {
           "id": "park",
           "displayText": "Park",
-<<<<<<< HEAD
-          "gridArea": ["2", "4", "3", "7"],
-=======
           "gridArea": ["6", "8", "7", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "gray",
           "type": "action",
           "executables": [
@@ -276,11 +221,7 @@
         {
           "id": "scoreAmp",
           "displayText": "Score Amp",
-<<<<<<< HEAD
-          "gridArea": ["4", "1", "5", "3"],
-=======
           "gridArea": ["6", "1", "7", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "green",
           "type": "action",
           "executables": []
@@ -299,44 +240,14 @@
           ]
         },
         {
-<<<<<<< HEAD
-          "id": "scoreSpeaker",
-          "displayText": "Speaker",
-          "gridArea": ["5", "8", "6", "10"],
-=======
           "id": "scoreSubwoofer",
           "displayText": "Subwoofer",
           "gridArea": ["6", "4", "7", "7"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "gray",
           "type": "action",
           "executables": []
         },
         {
-<<<<<<< HEAD
-          "id": "miss",
-          "displayText": "Miss",
-          "gridArea": ["4", "4", "5", "7"],
-          "class": "red",
-          "type": "action",
-          "executables": []
-        },
-                {
-          "id": "goodDefense",
-          "displayText": "Good Defense",
-          "gridArea": ["3", "2", "4", "4"],
-          "class": "navy",
-          "type": "action",
-          "executables": [{"type": "hide", "args": []}]
-        },
-        {
-          "id": "coopertition",
-          "displayText": "Coop",
-          "gridArea": ["3", "7", "4", "9"],
-          "class": "navy",
-          "type": "action",
-          "executables": [{"type": "hide", "args": []}]
-=======
           "id": "scoreWing",
           "displayText": "Wing",
           "gridArea": ["4", "4", "5", "7"],
@@ -375,7 +286,6 @@
           "class": "red",
           "type": "action",
           "executables": []
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         }
       ],
       [
@@ -406,11 +316,7 @@
         {
           "id": "groundPickup",
           "displayText": "Ground",
-<<<<<<< HEAD
-          "gridArea": ["2", "8", "3", "10"],
-=======
           "gridArea": ["3", "8", "4", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "orange",
           "type": "action",
           "executables": []
@@ -418,11 +324,7 @@
         {
           "id": "sourcePickup",
           "displayText": "Source",
-<<<<<<< HEAD
-          "gridArea": ["2", "1", "3", "3"],
-=======
           "gridArea": ["3", "1", "4", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "orange",
           "type": "action",
           "executables": []
@@ -430,32 +332,20 @@
         {
           "id": "park",
           "displayText": "Park",
-<<<<<<< HEAD
-          "gridArea": ["2", "4", "3", "7"],
-=======
           "gridArea": ["6", "8", "7", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "gray",
           "type": "action",
           "executables": [
             {
               "type": "layer",
-<<<<<<< HEAD
-              "args": [2, 4]
-=======
               "args": [3, 4]
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
             }
           ]
         },
         {
           "id": "scoreAmp",
           "displayText": "Score Amp",
-<<<<<<< HEAD
-          "gridArea": ["4", "1", "5", "3"],
-=======
           "gridArea": ["6", "1", "7", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "green",
           "type": "action",
           "executables": []
@@ -463,11 +353,7 @@
         {
           "id": "endAmp",
           "displayText": "End Amp",
-<<<<<<< HEAD
-          "gridArea": ["4", "3", "5", "5"],
-=======
           "gridArea": ["5", "1", "6", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "green",
           "type": "action",
           "executables": [
@@ -478,44 +364,14 @@
           ]
         },
         {
-<<<<<<< HEAD
-          "id": "scoreAmpedSpeaker",
-          "displayText": "Speaker",
-          "gridArea": ["5", "8", "6", "10"],
-=======
           "id": "scoreAmpedSubwoofer",
           "displayText": "Subwoofer",
           "gridArea": ["6", "4", "7", "7"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "green",
           "type": "action",
           "executables": []
         },
         {
-<<<<<<< HEAD
-          "id": "miss",
-          "displayText": "Miss",
-          "gridArea": ["4", "4", "5", "7"],
-          "class": "red",
-          "type": "action",
-          "executables": []
-        },
-                {
-          "id": "goodDefense",
-          "displayText": "Good Defense",
-          "gridArea": ["3", "2", "4", "4"],
-          "class": "navy",
-          "type": "action",
-          "executables": [{"type": "hide", "args": []}]
-        },
-        {
-          "id": "coopertition",
-          "displayText": "Coop",
-          "gridArea": ["3", "7", "4", "9"],
-          "class": "navy",
-          "type": "action",
-          "executables": [{"type": "hide", "args": []}]
-=======
           "id": "scoreAmpedWing",
           "displayText": "Wing",
           "gridArea": ["4", "4", "5", "7"],
@@ -554,7 +410,6 @@
           "class": "red",
           "type": "action",
           "executables": []
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         }
       ],
       [
@@ -584,11 +439,7 @@
         },
         {
           "id": "onstage",
-<<<<<<< HEAD
-          "displayText": "Onstage / Climb",
-=======
           "displayText": "Onstage/Climb",
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "gridArea": ["3", "4", "4", "7"],
           "class": "gray",
           "type": "action",
@@ -613,11 +464,7 @@
         {
           "id": "spotlit",
           "displayText": "Spotlit",
-<<<<<<< HEAD
-          "gridArea": ["5", "8", "6", "10"],
-=======
           "gridArea": ["6", "8", "7", "10"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "gray",
           "type": "action",
           "executables": []
@@ -625,11 +472,7 @@
         {
           "id": "trap",
           "displayText": "Trap",
-<<<<<<< HEAD
-          "gridArea": ["5", "4", "6", "7"],
-=======
           "gridArea": ["6", "4", "7", "7"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "gray",
           "type": "action",
           "executables": []
@@ -637,11 +480,7 @@
         {
           "id": "unpark",
           "displayText": "Unpark",
-<<<<<<< HEAD
-          "gridArea": ["5", "1", "6", "3"],
-=======
           "gridArea": ["6", "1", "7", "3"],
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
           "class": "orange",
           "type": "action",
           "executables": [
@@ -650,24 +489,6 @@
               "args": [4, 2]
             }
           ]
-<<<<<<< HEAD
-        },
-                {
-          "id": "goodDefense",
-          "displayText": "Good Defense",
-          "gridArea": ["4", "2", "5", "4"],
-          "class": "navy",
-          "type": "action",
-          "executables": [{"type": "hide", "args": []}]
-        },
-        {
-          "id": "coopertition",
-          "displayText": "Coop",
-          "gridArea": ["4", "7", "5", "9"],
-          "class": "navy",
-          "type": "action",
-          "executables": [{"type": "hide", "args": []}]
-=======
         }
       ],
       [
@@ -886,7 +707,6 @@
               "args": [6, 1]
             }
           ]
->>>>>>> 0ea340da5d5265953196badfffdaa12e5d6e1e24
         }
       ]
     ]
