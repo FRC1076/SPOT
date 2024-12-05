@@ -87,17 +87,12 @@
           "executables": []
         },
         {
-          "id": "groundPickup",
-          "displayText": "Ground",
+          "id": "pickUpCrate",
+          "displayText": "Pickup Crate",
           "gridArea": ["6", "1", "7", "3"],
           "class": "orange",
           "type": "none",
-          "executables": [
-            {
-              "type": "layer",
-              "args": [1, 5]
-            }
-          ]
+          "executables": []
         },
         {
           "id": "leave",
