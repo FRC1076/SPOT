@@ -7,7 +7,7 @@
         "displayText": "Auto",
         "variables": {}
       },
-      "139000" {
+      "139000": {
         "layer": 2,
         "displayText": "Teleop",
         "variables": {}
