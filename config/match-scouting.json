@@ -63,17 +63,17 @@
           "executables": []
         },
         {
-          "id": "penalty",
-          "displayText": "Penalty",
-          "gridArea": ["1", "1", "2", "2"],
+          "id": "broken",
+          "displayText": "Disabled",
+          "gridArea": ["1", "1", "2", "3"],
           "class": "red",
           "type": "action",
           "executables": []
         },
         {
-          "id": "broken",
-          "displayText": "Disabled",
-          "gridArea": ["1", "1", "2", "3"],
+          "id": "penalty",
+          "displayText": "Penalty",
+          "gridArea": ["2", "3", "3", "4"],
           "class": "red",
           "type": "action",
           "executables": []
