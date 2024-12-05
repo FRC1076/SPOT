@@ -90,8 +90,16 @@
           "id": "pickUpCrate",
           "displayText": "Pickup Crate",
           "gridArea": ["6", "1", "7", "3"],
-          "class": "orange",
+          "class": "gray",
           "type": "none",
+          "executables": []
+        },
+        {
+          "id": "dropCrate",
+          "displayText": "Drop Crate",
+          "gridArea": ["5", "1", "6", "3"],
+          "class": "yellow",
+          "type": "action",
           "executables": []
         },
         {
@@ -103,26 +111,10 @@
           "executables": []
         },
         {
-          "id": "scorePodium",
-          "displayText": "Podium",
-          "gridArea": ["5", "4", "6", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
           "id": "shotBalls",
           "displayText": "Shot Balls",
           "gridArea": ["6", "4", "7", "7"],
           "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "drop",
-          "displayText": "Drop",
-          "gridArea": ["5", "8", "6", "9"],
-          "class": "yellow",
           "type": "action",
           "executables": []
         },
