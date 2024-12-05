@@ -37,7 +37,7 @@
         },
 
         {
-          "id": "preloadNote",
+          "id": "preloadBalls",
           "displayText": "Preload Balls",
           "gridArea": ["4", "1", "6", "5"],
           "class": "orange",
@@ -45,8 +45,8 @@
           "executables": []
         },
         {
-          "id": "preloadNone",
-          "displayText": "Preload Crates",
+          "id": "preloadCrate",
+          "displayText": "Preload Crate",
           "gridArea": ["4", "6", "6", "10"],
           "class": "gray",
           "type": "action",
@@ -108,24 +108,8 @@
           "executables": []
         },
         {
-          "id": "scoreAmp",
-          "displayText": "Score Amp",
-          "gridArea": ["6", "1", "7", "3"],
-          "class": "green",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "scoreSubwoofer",
-          "displayText": "Subwoofer",
-          "gridArea": ["6", "4", "7", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "scoreWing",
-          "displayText": "Wing",
+          "id": "pushCrates",
+          "displayText": "Pushed Crates",
           "gridArea": ["4", "4", "5", "7"],
           "class": "gray",
           "type": "action",
