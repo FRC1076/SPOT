@@ -116,7 +116,7 @@
           "executables": []
         },
         {
-          "id": "shotballs",
+          "id": "shotBalls",
           "displayText": "Shot Balls",
           "gridArea": ["6", "4", "7", "7"],
           "class": "gray",
@@ -168,7 +168,7 @@
         {
           "id": "groundPickup",
           "displayText": "Ground",
-          "gridArea": ["3", "8", "4", "10"],
+          "gridArea": ["8", "1", "10", "3"],
           "class": "orange",
           "type": "action",
           "executables": []
