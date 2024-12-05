@@ -65,7 +65,7 @@
         {
           "id": "penalty",
           "displayText": "Penalty",
-          "gridArea": ["4", "2", "6", "4"],
+          "gridArea": ["3", "8", "6", "10"],
           "class": "red",
           "type": "action",
           "executables": []
