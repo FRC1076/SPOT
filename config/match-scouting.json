@@ -89,7 +89,7 @@
         {
           "id": "groundPickup",
           "displayText": "Ground",
-          "gridArea": ["8", "1", "10", "3"],
+          "gridArea": ["6", "1", "8", "3"],
           "class": "orange",
           "type": "none",
           "executables": [
