@@ -104,7 +104,7 @@
         },
         {
           "id": "pickUpBall",
-          "displayText": "Pick Up Balss",
+          "displayText": "Pick Up Balls",
           "gridArea": ["6", "8", "7", "10"],
           "class": "gray",
           "type": "action",
@@ -135,9 +135,9 @@
           "executables": []
         },
         {
-          "id": "miss",
-          "displayText": "Miss",
-          "gridArea": ["5", "9", "6", "10"],
+          "id": "ballOutOfBounds",
+          "displayText": "Out of Bounds",
+          "gridArea": ["5", "8", "6", "10"],
           "class": "red",
           "type": "action",
           "executables": []
