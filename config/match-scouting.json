@@ -124,9 +124,9 @@
           "executables": []
         },
         {
-          "id": "scoreMidfield",
-          "displayText": "Midfield",
-          "gridArea": ["3", "4", "4", "7"],
+          "id": "shotballs",
+          "displayText": "Shot Balls",
+          "gridArea": ["6", "4", "7", "7"],
           "class": "gray",
           "type": "action",
           "executables": []
