@@ -103,17 +103,17 @@
           "executables": []
         },
         {
-          "id": "leave",
-          "displayText": "Leave",
+          "id": "pickUpBall",
+          "displayText": "Pick Up Balss",
           "gridArea": ["6", "8", "7", "10"],
           "class": "gray",
           "type": "action",
           "executables": []
         },
         {
-          "id": "shotBalls",
-          "displayText": "Shot Balls",
-          "gridArea": ["6", "4", "7", "7"],
+          "id": "leave",
+          "displayText": "Leave",
+          "gridArea": ["4", "4", "5", "7"],
           "class": "gray",
           "type": "action",
           "executables": []
@@ -122,6 +122,14 @@
           "id": "pushCrates",
           "displayText": "Pushed Crates",
           "gridArea": ["5", "4", "6", "7"],
+          "class": "gray",
+          "type": "action",
+          "executables": []
+        },
+        {
+          "id": "shotBalls",
+          "displayText": "Shot Balls",
+          "gridArea": ["6", "4", "7", "7"],
           "class": "gray",
           "type": "action",
           "executables": []
