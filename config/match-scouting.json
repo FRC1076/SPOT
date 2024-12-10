@@ -70,58 +70,26 @@
           "executables": []
         },
         {
-          "id": "pickUpCrate",
-          "displayText": "Pickup Crate",
-          "gridArea": ["6", "1", "7", "3"],
-          "class": "gray",
-          "type": "none",
-          "executables": []
-        },
-        {
-          "id": "dropCrate",
-          "displayText": "Drop Crate",
-          "gridArea": ["5", "1", "6", "3"],
-          "class": "red",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "pickUpBall",
-          "displayText": "Pick Up Balls",
-          "gridArea": ["6", "8", "7", "10"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
           "id": "leave",
-          "displayText": "Leave",
+          "displayText": "Crossed Line",
           "gridArea": ["4", "4", "5", "7"],
           "class": "gray",
           "type": "action",
           "executables": []
         },
         {
-          "id": "pushCrates",
-          "displayText": "Pushed Crates",
-          "gridArea": ["5", "4", "6", "7"],
+          "id": "scoreCrate",
+          "displayText": "Score Crate",
+          "gridArea": ["6", "1", "7", "3"],
           "class": "gray",
-          "type": "action",
+          "type": "none",
           "executables": []
         },
         {
-          "id": "shotBalls",
-          "displayText": "Shot Balls",
-          "gridArea": ["6", "4", "7", "7"],
+          "id": "scoreBall",
+          "displayText": "Score Ball",
+          "gridArea": ["6", "8", "7", "10"],
           "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "ballOutOfBounds",
-          "displayText": "Out of Bounds",
-          "gridArea": ["5", "8", "6", "10"],
-          "class": "red",
           "type": "action",
           "executables": []
         }
