@@ -139,32 +139,32 @@
           "id": "scoreCrateTop",
           "displayText": "Top",
           "gridArea": ["3", "1", "4", "4"],
-          "class": "none",
-          "type": "none",
+          "class": "gray",
+          "type": "action",
           "executables": []
         },
         {
           "id": "scoreCrate3rd",
           "displayText": "3rd",
           "gridArea": ["4", "1", "5", "4"],
-          "class": "none",
-          "type": "none",
+          "class": "gray",
+          "type": "action",
           "executables": []
         },
         {
           "id": "scoreCrate2nd",
           "displayText": "2nd",
           "gridArea": ["5", "1", "6", "4"],
-          "class": "none",
-          "type": "none",
+          "class": "gray",
+          "type": "action",
           "executables": []
         },
         {
           "id": "scoreCrateBottom",
           "displayText": "Bottom",
           "gridArea": ["6", "1", "7", "4"],
-          "class": "none",
-          "type": "none",
+          "class": "gray",
+          "type": "action",
           "executables": []
         }
       ]
