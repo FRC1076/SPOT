@@ -162,7 +162,7 @@
         {
           "id": "scoreCrateBottom",
           "displayText": "Bottom",
-          "gridArea": ["6", "1", "8", "4"],
+          "gridArea": ["7", "1", "8", "4"],
           "class": "gray",
           "type": "action",
           "executables": []
