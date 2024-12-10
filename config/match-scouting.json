@@ -54,19 +54,19 @@
           "executables": []
         },
         {
-          "id": "penalty",
-          "displayText": "Penalty",
-          "gridArea": ["2", "4", "3", "7"],
-          "class": "red",
-          "type": "action",
-          "executables": []
-        },
-        {
           "id": "undo",
           "displayText": "Undo",
           "gridArea": ["1", "8", "2", "10"],
           "class": "pink",
           "type": "undo",
+          "executables": []
+        },
+        {
+          "id": "penalty",
+          "displayText": "Penalty",
+          "gridArea": ["2", "4", "3", "7"],
+          "class": "red",
+          "type": "action",
           "executables": []
         },
         {
@@ -120,99 +120,9 @@
           "executables": []
         },
         {
-          "id": "groundPickup",
-          "displayText": "Ground",
-          "gridArea": ["8", "1", "10", "3"],
-          "class": "orange",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "sourcePickup",
-          "displayText": "Source",
-          "gridArea": ["3", "1", "4", "3"],
-          "class": "orange",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "park",
-          "displayText": "Park",
-          "gridArea": ["6", "8", "7", "10"],
-          "class": "gray",
-          "type": "action",
-          "executables": [
-            {
-              "type": "layer",
-              "args": [2, 4]
-            }
-          ]
-        },
-        {
-          "id": "scoreAmp",
-          "displayText": "Score Amp",
-          "gridArea": ["6", "1", "7", "3"],
-          "class": "green",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "amplify",
-          "displayText": "Amplify",
-          "gridArea": ["5", "1", "6", "3"],
-          "class": "green",
-          "type": "action",
-          "executables": [
-            {
-              "type": "layer",
-              "args": [2, 3]
-            }
-          ]
-        },
-        {
-          "id": "scoreSubwoofer",
-          "displayText": "Subwoofer",
-          "gridArea": ["6", "4", "7", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "scoreWing",
-          "displayText": "Wing",
-          "gridArea": ["4", "4", "5", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "pushCrates",
-          "displayText": "Pushed Crates",
-          "gridArea": ["5", "4", "6", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "scoreMidfield",
-          "displayText": "Midfield",
-          "gridArea": ["3", "4", "4", "7"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "drop",
-          "displayText": "Drop",
-          "gridArea": ["5", "8", "6", "9"],
-          "class": "yellow",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "miss",
-          "displayText": "Miss",
-          "gridArea": ["5", "9", "6", "10"],
+          "id": "penalty",
+          "displayText": "Penalty",
+          "gridArea": ["2", "4", "3", "7"],
           "class": "red",
           "type": "action",
           "executables": []
