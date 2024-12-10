@@ -131,7 +131,7 @@
           "id": "scoreCrateLabel",
           "displayText": "Scored Crate In:",
           "gridArea": ["3", "1", "4", "4"],
-          "class": "item-label",
+          "class": "gray",
           "type": "none",
           "executables": []
         },
