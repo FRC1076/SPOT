@@ -7,7 +7,7 @@
         "displayText": "Auto",
         "variables": {}
       },
-      "139000": {
+      "137000": {
         "layer": 2,
         "displayText": "Teleop",
         "variables": {}
@@ -34,23 +34,6 @@
               "args": [0, 1]
             }
           ]
-        },
-
-        {
-          "id": "preloadBalls",
-          "displayText": "Preload Balls",
-          "gridArea": ["4", "1", "6", "5"],
-          "class": "orange",
-          "type": "action",
-          "executables": []
-        },
-        {
-          "id": "preloadCrate",
-          "displayText": "Preload Crate",
-          "gridArea": ["4", "6", "6", "10"],
-          "class": "gray",
-          "type": "action",
-          "executables": []
         }
       ],
       [
