@@ -15,7 +15,7 @@
     }
   },
   "variables": {
-    "minOfQueueLength": 2
+    "minOfQueueLength": 1
   },
   "layout": {
     "gridRows": 6,
@@ -160,16 +160,16 @@
           "executables": []
         },
         {
-          "id": "Intake Ball",
-          "displayText": "Bottom Row",
+          "id": "intakeBall",
+          "displayText": "Intake Ball",
           "gridArea": ["5", "7", "6", "10"],
           "class": "gray",
           "type": "action",
           "executables": []
         },
         {
-          "id": "Launch Ball",
-          "displayText": "Bottom Row",
+          "id": "launchBall",
+          "displayText": "Launch Ball",
           "gridArea": ["6", "7", "7", "10"],
           "class": "gray",
           "type": "action",
