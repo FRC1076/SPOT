@@ -80,7 +80,7 @@
         {
           "id": "scoreCrate",
           "displayText": "Score Crate",
-          "gridArea": ["6", "1", "7", "3"],
+          "gridArea": ["6", "1", "7", "4"],
           "class": "gray",
           "type": "none",
           "executables": []
@@ -88,7 +88,7 @@
         {
           "id": "scoreBall",
           "displayText": "Score Ball",
-          "gridArea": ["6", "8", "7", "10"],
+          "gridArea": ["6", "7", "7", "10"],
           "class": "gray",
           "type": "action",
           "executables": []
