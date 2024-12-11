@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const fs = require("fs");
 let router = express.Router();
+const executePipeline = require("./analysisPipeline.js");
 const compareAllTeams = require("./autoPick.js");
 const { setPath } = require("../lib/util");
 const ss = require("simple-statistics");
@@ -116,7 +117,7 @@ router.get("/transformers.js", async (req, res) => {
 });
 
 router.get("/autoPick", async (req, res) => {
-  let dataset = await execute();
+  let dataset = await executePipeline();
   let teams = [];
   for (const [teamNumber, team] of Object.entries(dataset.teams)) {
     if (
