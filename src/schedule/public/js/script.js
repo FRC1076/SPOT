@@ -117,7 +117,7 @@ async function processTeams() {
     let redTeams = [];
     let blueTeams = [];
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 2; i++) {
       redTeams.push(data[i].innerText);
       blueTeams.push(data[i + 3].innerText);
     }
