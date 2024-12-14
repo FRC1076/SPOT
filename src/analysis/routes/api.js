@@ -112,4 +112,15 @@ router.get("/csv", async (req, res) => {
   res.send(csv);
 });
 
+router.get("/csv-export", async (req, res) => {
+  let rows = [];
+
+  //make into csv
+  let csv = rows
+    .map((row) => row.reduce((acc, value) => acc + `,${value}`))
+    .reduce((acc, row) => acc + `${row}\n`, "");
+  res.set({ "Content-Disposition": `attachment; filename="teams.csv"` });
+  res.send(csv);
+});
+
 module.exports = router;
