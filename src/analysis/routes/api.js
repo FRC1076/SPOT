@@ -114,7 +114,6 @@ router.get("/csv", async (req, res) => {
 
 router.get("/csv-export", async (req, res) => {
   let rows = [];
-  console.log(rows);
 
   // header row
   rows.push([
@@ -137,11 +136,7 @@ router.get("/csv-export", async (req, res) => {
   ]);
 
   // import json data
-  res.json(
-    await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER })
-  );
   var obj = await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER });
-  console.log("test");
   console.log(obj);
 
   function countOccurences(array, value, isAuton){
