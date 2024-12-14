@@ -153,6 +153,7 @@ router.get("/csv-export", async (req, res) => {
         }
       }
     }
+    return count;
   }
 
   for(x in obj) {
