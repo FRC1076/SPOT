@@ -129,9 +129,9 @@ router.get("/csv-export", async (req, res) => {
     "teleop-intakeBall",
     "teleop-launchBall",
     "teleop-penalty",
+    "teleop-scoreCrateBottom",
     "teleop-scoreCrate2nd",
     "teleop-scoreCrate3rd",
-    "teleop-scoreCrateBottom",
     "teleop-scoreCrateTop",
   ]);
 
@@ -161,6 +161,18 @@ router.get("/csv-export", async (req, res) => {
       obj[x]["robotNumber"],
       obj[x]["matchNumber"],
       countOccurences(obj[x]["actionQueue"], "broken", true), // auton-broken
+      countOccurences(obj[x]["actionQueue"], "leave", true), // auton-leave
+      countOccurences(obj[x]["actionQueue"], "penalty", true), // auton-penalty
+      countOccurences(obj[x]["actionQueue"], "scoreBall", true), // auton-scoreBall
+      countOccurences(obj[x]["actionQueue"], "scoreCrate", true), // auton-scoreCrate
+      countOccurences(obj[x]["actionQueue"], "broken", false), // teleop-broken
+      countOccurences(obj[x]["actionQueue"], "intakeBall", false), // teleop-intakeBall
+      countOccurences(obj[x]["actionQueue"], "launchBall", false), // teleop-launchBall
+      countOccurences(obj[x]["actionQueue"], "penalty", false), // teleop-penalty
+      countOccurences(obj[x]["actionQueue"], "scoreCrateBottom", false), // teleop-scoreCrateBottom
+      countOccurences(obj[x]["actionQueue"], "scoreCrate2nd", false), // teleop-scoreCrate2nd
+      countOccurences(obj[x]["actionQueue"], "scoreCrate3rd", false), // teleop-scoreCrate3rd
+      countOccurences(obj[x]["actionQueue"], "scoreCrateTop", false), // teleop-scoreCrateTop
     )
   }
 
