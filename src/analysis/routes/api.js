@@ -135,6 +135,13 @@ router.get("/csv-export", async (req, res) => {
     "teleop-scoreCrateTop",
   ]);
 
+  // import json data
+  res.json(
+    await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER })
+  );
+
+  rows.push(res);
+
   //make into csv
   let csv = rows
     .map((row) => row.reduce((acc, value) => acc + `,${value}`))
