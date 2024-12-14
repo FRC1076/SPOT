@@ -177,11 +177,11 @@ router.get("/csv-export", async (req, res) => {
   ]}
 
   //make into csv
-  let csv = rows
+  /* let csv = rows
     .map((row) => row.reduce((acc, value) => acc + `,${value}`))
     .reduce((acc, row) => acc + `${row}\n`, "");
-  res.set({ "Content-Disposition": `attachment; filename="teams.csv"` });
-  res.send(csv);
+  res.set({ "Content-Disposition": `attachment; filename="teams.csv"` }); */
+  // res.send(csv);
 });
 
 module.exports = router;
