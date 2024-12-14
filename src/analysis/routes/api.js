@@ -139,7 +139,7 @@ router.get("/csv-export", async (req, res) => {
   let obj = await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER });
 
   for(x in obj) {
-    console.log(obj[x]["_id"]);
+    console.log(obj[x]["scouterId"]);
   }
 
   //make into csv
