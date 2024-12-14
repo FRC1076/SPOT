@@ -138,7 +138,7 @@ router.get("/csv-export", async (req, res) => {
   // import json data
   let json = await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER });
 
-  document.write(json);
+  console.log(json);
   rows.push();
 
   //make into csv
