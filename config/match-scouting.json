@@ -82,7 +82,7 @@
           "displayText": "Score Crate",
           "gridArea": ["6", "1", "7", "4"],
           "class": "gray",
-          "type": "none",
+          "type": "action",
           "executables": []
         },
         {
