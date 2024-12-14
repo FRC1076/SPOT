@@ -155,7 +155,7 @@ router.get("/csv-export", async (req, res) => {
     }
   }
 
-  for(x in obj) {
+  for(x in obj) {[
     rows.push(
       obj[x]["scouterId"], //scouter name
       obj[x]["robotNumber"],
@@ -174,7 +174,7 @@ router.get("/csv-export", async (req, res) => {
       countOccurences(obj[x]["actionQueue"], "scoreCrate3rd", false), // teleop-scoreCrate3rd
       countOccurences(obj[x]["actionQueue"], "scoreCrateTop", false), // teleop-scoreCrateTop
     )
-  }
+  ]}
 
   //make into csv
   let csv = rows
