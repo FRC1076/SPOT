@@ -138,6 +138,7 @@ router.get("/csv-export", async (req, res) => {
 
   // import json data
   var obj = await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER });
+  console.log(obj);
 
   function countOccurences(array, value, isAuton){
     var count = 0;
