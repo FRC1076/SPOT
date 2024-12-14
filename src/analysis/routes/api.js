@@ -138,8 +138,30 @@ router.get("/csv-export", async (req, res) => {
   // import json data
   let obj = await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER });
 
+  function countOccurences(array, value, isAuton){
+    var count = 0;
+    if (isAuton) {
+      for(key in array) {
+        if (array[key]["id"] == value && array[key]["ts"] < 137000){
+          count++;
+        }
+      }
+    } else {
+      for(key in array) {
+        if (array[key]["id"] == value && array[key]["ts"] > 137000){
+          count++;
+        }
+      }
+    }
+  }
+
   for(x in obj) {
-    console.log(obj[x]["scouterId"]);
+    rows.push(
+      obj[x]["scouterId"], //scouter name
+      obj[x]["robotNumber"],
+      obj[x]["matchNumber"],
+      countOccurences(obj[x]["actionQueue"], "broken", true), // auton-broken
+    )
   }
 
   //make into csv
