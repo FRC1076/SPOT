@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const { TeamMatchPerformance } = require("../../lib/db.js");
 const axios = require("axios");
-const executePipeline = require("./public/js/analysisPipeline.js");
+const executePipeline = require("../public/js/analysisPipeline.js");
 const config = require("../../../config/config.json");
 
 let router = Router();
