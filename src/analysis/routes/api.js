@@ -115,6 +115,11 @@ router.get("/csv", async (req, res) => {
 router.get("/csv-export", async (req, res) => {
   let rows = [];
 
+  // header row
+  rows.push([
+    "something"
+  ]);
+
   //make into csv
   let csv = rows
     .map((row) => row.reduce((acc, value) => acc + `,${value}`))
