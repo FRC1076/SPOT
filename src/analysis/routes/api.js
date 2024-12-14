@@ -117,7 +117,22 @@ router.get("/csv-export", async (req, res) => {
 
   // header row
   rows.push([
-    "something"
+    "Scouter Name",
+    "Robot Number",
+    "Match Number",
+    "auton-broken",
+    "auton-leave",
+    "auton-penalty",
+    "auton-scoreBall",
+    "auton-scoreCrate",
+    "teleop-broken",
+    "teleop-intakeBall",
+    "teleop-launchBall",
+    "teleop-penalty",
+    "teleop-scoreCrate2nd",
+    "teleop-scoreCrate3rd",
+    "teleop-scoreCrateBottom",
+    "teleop-scoreCrateTop",
   ]);
 
   //make into csv
