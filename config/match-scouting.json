@@ -116,7 +116,7 @@
         },
         {
           "id": "autoScoreCoral",
-          "displayText": "Coral",
+          "displayText": "Score Coral",
           "gridArea": ["3", "3", "5", "5"],
           "class": "coral",
           "type": "none",
@@ -158,7 +158,7 @@
         },
         {
           "id": "autoScoreAlgae",
-          "displayText": "Algae",
+          "displayText": "Score Algae",
           "gridArea": ["3", "6", "5", "8"],
           "class": "bluegreen",
           "type": "action",
@@ -229,7 +229,7 @@
         },
         {
           "id": "teleopScoreCoral",
-          "displayText": "Coral",
+          "displayText": "Score Coral",
           "gridArea": ["3", "3", "5", "5"],
           "class": "coral",
           "type": "action",
@@ -266,7 +266,7 @@
         },
         {
           "id": "teleopScoreAlgae",
-          "displayText": "Algae",
+          "displayText": "Score Algae",
           "gridArea": ["3", "6", "5", "8"],
           "class": "bluegreen",
           "type": "action",
