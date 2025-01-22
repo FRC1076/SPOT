@@ -286,6 +286,19 @@
           "executables": []
         },
         {
+          "id": "defense",
+          "displayText": "Good Defense",
+          "gridArea": ["5", "4", "6", "7"],
+          "class": "gray",
+          "type": "action",
+          "executables": [
+            {
+              "type": "layer",
+              "args": [2, 3]
+            }
+          ]
+        },
+        {
           "id": "barge",
           "displayText": "Barge",
           "gridArea": ["6", "4", "7", "7"],
