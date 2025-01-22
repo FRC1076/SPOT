@@ -38,7 +38,7 @@
         {
           "id": "preloadCoral",
           "displayText": "Preload Coral",
-          "gridArea": ["4", "1", "6", "3"],
+          "gridArea": ["4", "1", "6", "4"],
           "class": "lightCoral",
           "type": "action",
           "executables": []
@@ -46,7 +46,7 @@
         {
           "id": "preloadAlgae",
           "displayText": "Preload Algae",
-          "gridArea": ["4", "4", "6", "7"],
+          "gridArea": ["4", "5", "6", "7"],
           "class": "lightbluegreen",
           "type": "action",
           "executables": []
