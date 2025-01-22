@@ -204,14 +204,18 @@
   },
   {
     "view": "team",
-    "module": "Pie",
+    "module": "Bar",
     "name": "Pre-Loads",
     "position": "main",
     "options": {
-      "slices": [
+      "bars": [
         {
           "name": "Pre-Loaded Coral",
           "path": "counts.preloadCoral"
+        },
+        {
+          "name": "Pre-Loaded Algae",
+          "path": "counts.preloadAlgae"
         },
         {
           "name": "Pre-Load None",
