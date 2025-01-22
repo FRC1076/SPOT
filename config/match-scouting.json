@@ -291,12 +291,7 @@
           "gridArea": ["5", "4", "6", "7"],
           "class": "gray",
           "type": "action",
-          "executables": [
-            {
-              "type": "layer",
-              "args": [2, 3]
-            }
-          ]
+          "executables": []
         },
         {
           "id": "barge",
