@@ -119,7 +119,7 @@
           "displayText": "Score Coral",
           "gridArea": ["3", "3", "5", "5"],
           "class": "coral",
-          "type": "none",
+          "type": "action",
           "executables": [
             {
               "type": "layer",
