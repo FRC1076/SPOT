@@ -38,15 +38,23 @@
         {
           "id": "preloadCoral",
           "displayText": "Preload Coral",
-          "gridArea": ["4", "1", "6", "5"],
+          "gridArea": ["4", "1", "6", "3"],
           "class": "lightCoral",
+          "type": "action",
+          "executables": []
+        },
+        {
+          "id": "preloadAlgae",
+          "displayText": "Preload Algae",
+          "gridArea": ["4", "4", "6", "7"],
+          "class": "lightbluegreen",
           "type": "action",
           "executables": []
         },
         {
           "id": "preloadNone",
           "displayText": "Preload None",
-          "gridArea": ["4", "6", "6", "10"],
+          "gridArea": ["4", "8", "6", "10"],
           "class": "gray",
           "type": "action",
           "executables": []
