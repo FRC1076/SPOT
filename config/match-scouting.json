@@ -91,12 +91,7 @@
           "gridArea": ["2", "1", "4", "3"],
           "class": "lightCoral",
           "type": "action",
-          "executables": [
-            {
-              "type": "layer",
-              "args": [1, 7]
-            }
-          ]
+          "executables": []
         },
         {
           "id": "autoStationPickupCoral",
