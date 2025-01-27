@@ -78,14 +78,6 @@
           "executables": []
         },
         {
-          "id": "aStop",
-          "displayText": "A-Stop",
-          "gridArea": ["1", "3", "2", "4"],
-          "class": "red",
-          "type": "action",
-          "executables": []
-        },
-        {
           "id": "autoGroundPickupCoral",
           "displayText": "Pickup Ground",
           "gridArea": ["2", "1", "4", "3"],
