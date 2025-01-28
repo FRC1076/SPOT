@@ -111,7 +111,7 @@ router.get("/csv", async (req, res) => {
   res.send(csv);
 });
 
-router.get("/csv-export", async (req, res) => {
+router.get("/csv-raw", async (req, res) => {
   let rows = [];
 
   // header row
@@ -188,46 +188,46 @@ router.get("/csv-export", async (req, res) => {
       countOccurences(obj[x]["actionQueue"], "preloadCoral"), // Preload Coral
       countOccurences(obj[x]["actionQueue"], "preloadAlgae"), // Preload Algae
       countOccurences(obj[x]["actionQueue"], "preloadNone"), // Preload None
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Ground Pickup Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Station Pickup Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Drop Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score Coral (Total Attempts)
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score L1
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score L2
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score L3
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score L4
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Miss Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Ground Pickup Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Reef Pickup Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Drop Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score Algae (Total Attempts)
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score Processor Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Miss Processor Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Score Net Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Miss Net Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Auto Leave
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Ground Pickup Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Station Pickup Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Drop Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score Coral (Total Attempts)
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score L1
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score L2
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score L3
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score L4
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Miss Coral
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Ground Pickup Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Reef Pickup Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Drop Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score Algae (Total Attempts)
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score Processor Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Miss Processor Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Score Net Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Teleop Miss Net Algae
-      countOccurences(obj[x]["actionQueue"], ""), // Good Defense
-      countOccurences(obj[x]["actionQueue"], ""), // Park
-      countOccurences(obj[x]["actionQueue"], ""), // Shallow
-      countOccurences(obj[x]["actionQueue"], ""), // Deep 
-      countOccurences(obj[x]["actionQueue"], ""), // Fall
+      countOccurences(obj[x]["actionQueue"], "autoGroundPickupCoral"), // Auto Ground Pickup Coral
+      countOccurences(obj[x]["actionQueue"], "autoStationPickupCoral"), // Auto Station Pickup Coral
+      countOccurences(obj[x]["actionQueue"], "autoCoralDrop"), // Auto Drop Coral
+      countOccurences(obj[x]["actionQueue"], "autoScoreCoral"), // Auto Score Coral (Total Attempts)
+      countOccurences(obj[x]["actionQueue"], "autol1"), // Auto Score L1
+      countOccurences(obj[x]["actionQueue"], "autol2"), // Auto Score L2
+      countOccurences(obj[x]["actionQueue"], "autol3"), // Auto Score L3
+      countOccurences(obj[x]["actionQueue"], "autol4"), // Auto Score L4
+      countOccurences(obj[x]["actionQueue"], "autoMissCoral"), // Auto Miss Coral
+      countOccurences(obj[x]["actionQueue"], "autoGroundPickupAlgae"), // Auto Ground Pickup Algae
+      countOccurences(obj[x]["actionQueue"], "autoReefPickupAlgae"), // Auto Reef Pickup Algae
+      countOccurences(obj[x]["actionQueue"], "autoAlgaeDrop"), // Auto Drop Algae
+      countOccurences(obj[x]["actionQueue"], "autoScoreAlgae"), // Auto Score Algae (Total Attempts)
+      countOccurences(obj[x]["actionQueue"], "autoScoreProcessor"), // Auto Score Processor Algae
+      countOccurences(obj[x]["actionQueue"], "autoMissProcessor"), // Auto Miss Processor Algae
+      countOccurences(obj[x]["actionQueue"], "autoScoreNet"), // Auto Score Net Algae
+      countOccurences(obj[x]["actionQueue"], "autoMissNet"), // Auto Miss Net Algae
+      countOccurences(obj[x]["actionQueue"], "leave"), // Auto Leave
+      countOccurences(obj[x]["actionQueue"], "teleopGroundPickupCoral"), // Teleop Ground Pickup Coral
+      countOccurences(obj[x]["actionQueue"], "teleopStationPickupCoral"), // Teleop Station Pickup Coral
+      countOccurences(obj[x]["actionQueue"], "teleopCoralDrop"), // Teleop Drop Coral
+      countOccurences(obj[x]["actionQueue"], "teleopScoreCoral"), // Teleop Score Coral (Total Attempts)
+      countOccurences(obj[x]["actionQueue"], "teleopl1"), // Teleop Score L1
+      countOccurences(obj[x]["actionQueue"], "teleopl2"), // Teleop Score L2
+      countOccurences(obj[x]["actionQueue"], "teleopl3"), // Teleop Score L3
+      countOccurences(obj[x]["actionQueue"], "teleopl4"), // Teleop Score L4
+      countOccurences(obj[x]["actionQueue"], "teleopMissCoral"), // Teleop Miss Coral
+      countOccurences(obj[x]["actionQueue"], "teleopGroundPickupAlgae"), // Teleop Ground Pickup Algae
+      countOccurences(obj[x]["actionQueue"], "teleopReefPickupAlgae"), // Teleop Reef Pickup Algae
+      countOccurences(obj[x]["actionQueue"], "teleopAlgaeDrop"), // Teleop Drop Algae
+      countOccurences(obj[x]["actionQueue"], "teleopScoreAlgae"), // Teleop Score Algae (Total Attempts)
+      countOccurences(obj[x]["actionQueue"], "teleopScoreProcessor"), // Teleop Score Processor Algae
+      countOccurences(obj[x]["actionQueue"], "teleopMissProcessor"), // Teleop Miss Processor Algae
+      countOccurences(obj[x]["actionQueue"], "teleopScoreNet"), // Teleop Score Net Algae
+      countOccurences(obj[x]["actionQueue"], "teleopMissNet"), // Teleop Miss Net Algae
+      countOccurences(obj[x]["actionQueue"], "defense"), // Good Defense
+      countOccurences(obj[x]["actionQueue"], "park"), // Park
+      countOccurences(obj[x]["actionQueue"], "shallow"), // Shallow
+      countOccurences(obj[x]["actionQueue"], "deep"), // Deep 
+      countOccurences(obj[x]["actionQueue"], "bargeFall"), // Fall
     ])
   }
 
