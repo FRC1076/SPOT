@@ -231,16 +231,13 @@ router.get("/csv-raw", async (req, res) => {
     ])
   }
 
-  // get the current date for the filename
-  let dateObj = new Date();
-  let dateString = dateObj.getDate() + "-" +  dateObj.getMonth() + "-" + dateObj.getFullYear() + " " + dateObj.getHours() + ":" + dateObj.getMinutes();
-
+  let date = new Date();
 
   //make into csv
   let csv = rows
     .map((row) => row.reduce((acc, value) => acc + `,${value}`))
     .reduce((acc, row) => acc + `${row}\n`, "");
-  res.set({ "Content-Disposition": `attachment; filename="scoutingData at "` + dateObj.toDateString() + `".csv"` });
+  res.set({ "Content-Disposition": `attachment; filename="scoutingData at "` + date.toString() + `".csv"` });
   res.send(csv);
 });
 
