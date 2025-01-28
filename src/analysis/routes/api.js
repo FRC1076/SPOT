@@ -171,17 +171,9 @@ router.get("/csv-export", async (req, res) => {
 
   function countOccurences(array, value, isAuton){
     var count = 0;
-    if (isAuton) {
-      for(key in array) {
-        if (array[key]["id"] == value && array[key]["ts"] > 137000){
-          count++;
-        }
-      }
-    } else {
-      for(key in array) {
-        if (array[key]["id"] == value && array[key]["ts"] < 137000){
-          count++;
-        }
+    for(key in array) {
+      if (array[key]["id"] == value) {
+        count++;
       }
     }
     return count;
