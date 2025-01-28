@@ -237,7 +237,7 @@ router.get("/csv-raw", async (req, res) => {
   let csv = rows
     .map((row) => row.reduce((acc, value) => acc + `,${value}`))
     .reduce((acc, row) => acc + `${row}\n`, "");
-  res.set({ "Content-Disposition": `attachment; filename="scoutingData at "` + date.toString() + `".csv"` });
+  res.set({ "Content-Disposition": `attachment; filename="1076 Scouting Data at "` + date.toDateString() + " " + date.toTimeString() + `".csv"` });
   res.send(csv);
 });
 
