@@ -111,4 +111,97 @@ router.get("/csv", async (req, res) => {
   res.send(csv);
 });
 
+router.get("/csv-export", async (req, res) => {
+  let rows = [];
+
+  // header row
+  rows.push([
+    "Scouter",
+    "Match",
+    "Team",
+    "Broken (or A-Stopped)",
+    "Preload Coral",
+    "Preload Algae",
+    "Preload None",
+    "Auto Ground Pickup Coral",
+    "Auto Station Pickup Coral",
+    "Auto Drop Coral",
+    "Auto Score Coral (Total Attempts)",
+    "Auto Score L1",
+    "Auto Score L2",
+    "Auto Score L3",
+    "Auto Score L4",
+    "Auto Miss Coral",
+    "Auto Ground Pickup Algae",
+    "Auto Reef Pickup Algae",
+    "Auto Drop Algae",
+    "Auto Score Algae (Total Attempts)",
+    "Auto Score Processor Algae",
+    "Auto Miss Processor Algae",
+    "Auto Score Net Algae",
+    "Auto Miss Net Algae",
+    "Auto Leave",
+    "Teleop Ground Pickup Coral",
+    "Teleop Station Pickup Coral",
+    "Teleop Drop Coral",
+    "Teleop Score Coral (Total Attempts)",
+    "Teleop Score L1",
+    "Teleop Score L2",
+    "Teleop Score L3",
+    "Teleop Score L4",
+    "Teleop Miss Coral",
+    "Teleop Ground Pickup Algae",
+    "Teleop Reef Pickup Algae",
+    "Teleop Drop Algae",
+    "Teleop Score Algae (Total Attempts)",
+    "Teleop Score Processor Algae",
+    "Teleop Miss Processor Algae",
+    "Teleop Score Net Algae",
+    "Teleop Miss Net Algae",
+    "Good Defense",
+    "Park",
+    "Shallow",
+    "Deep",
+    "Fall"
+  ]);
+
+  // import json data
+  var obj = await TeamMatchPerformance.find({ eventNumber: config.EVENT_NUMBER });
+  console.log(obj);
+
+  function countOccurences(array, value, isAuton){
+    var count = 0;
+    if (isAuton) {
+      for(key in array) {
+        if (array[key]["id"] == value && array[key]["ts"] > 137000){
+          count++;
+        }
+      }
+    } else {
+      for(key in array) {
+        if (array[key]["id"] == value && array[key]["ts"] < 137000){
+          count++;
+        }
+      }
+    }
+    return count;
+  }
+
+  for(x in obj) {
+    rows.push([
+      obj[x]["scouterId"], //scouter name
+      obj[x]["matchNumber"], // match number
+      obj[x]["robotNumber"], // team number
+      countOccurences(obj[x]["actionQueue"], "broken", true), // auton-broken
+    ])
+  }
+
+  //make into csv
+  let csv = rows
+    .map((row) => row.reduce((acc, value) => acc + `,${value}`))
+    .reduce((acc, row) => acc + `${row}\n`, "");
+  res.set({ "Content-Disposition": `attachment; filename="data.csv"` });
+  res.send(csv);
+});
+
 module.exports = router;
