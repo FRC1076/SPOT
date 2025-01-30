@@ -128,12 +128,7 @@
           "gridArea": ["2", "8", "4", "10"],
           "class": "lightbluegreen",
           "type": "action",
-          "executables": [
-            {
-              "type": "layer",
-              "args": [1, 6]
-            }
-          ]
+          "executables": []
         },
         {
           "id": "autoReefPickupAlgae",
