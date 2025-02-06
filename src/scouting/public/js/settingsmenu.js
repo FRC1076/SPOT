@@ -11,6 +11,10 @@ function goToAnalysis() {
   window.open("/analysis").focus();
 }
 
+function downloadCSV() {
+  window.open("/analysis/api/csv-raw");
+}
+
 window.onclick = function (event) {
   var overlay = document.getElementById("settingsOverlay");
   if (event.target === overlay) {
